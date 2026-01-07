@@ -11,6 +11,16 @@ namespace web_form_app
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                if (Request.Cookies["usercookie"] != null)
+                {
+                    string user = Request.Cookies["usercookie"]["username"];
+                    Label1.Text ="Welcome "+user;
+
+
+                }
+            }
 
         }
 

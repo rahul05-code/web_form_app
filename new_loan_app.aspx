@@ -10,6 +10,9 @@
     <form id="form1" runat="server">
         <div>
             <h2>New Loan Application</h2>
+            <p>
+                <asp:Label ID="Label1" runat="server"></asp:Label>
+            </p>
             <table>
                 <tr>
                     <td>
