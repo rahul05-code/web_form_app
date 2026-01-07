@@ -45,7 +45,12 @@
                         <asp:Label ID="lc" runat="server" Text="Loan Category: "></asp:Label>
                     </td>
                     <td>
-                        <asp:DropDownList ID="lcdd" runat="server"></asp:DropDownList>
+                        <asp:DropDownList ID="lcdd" runat="server">
+                            <asp:ListItem>Home Loan</asp:ListItem>
+                            <asp:ListItem>Student Loan</asp:ListItem>
+                            <asp:ListItem>Personal Loan</asp:ListItem>
+                            <asp:ListItem>Business Loan</asp:ListItem>
+                        </asp:DropDownList>
                     </td>
                 </tr>
 
@@ -94,6 +99,13 @@
                     </td>
                 </tr>
 
+                <tr>
+                    <td>
+                        <asp:Button ID="Button1" runat="server" Text="Submit" />
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
             </table>
         </div>
     </form>
