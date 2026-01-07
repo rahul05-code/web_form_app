@@ -14,11 +14,11 @@
                 <table>
                     <tr>
                         <td>
-                            <asp:Label ID="lblemail" runat="server" Text="Email: "></asp:Label>
+                            <asp:Label ID="lbluser" runat="server" Text="Username: "></asp:Label>
 
                         </td>
                         <td>
-                            <asp:TextBox ID="emailtxt" runat="server" Height="16px" Style="margin-left: 33px; margin-top: 4px" Width="152px"></asp:TextBox>
+                            <asp:TextBox ID="usertxt" runat="server" Height="16px" Style="margin-left: 33px; margin-top: 4px" Width="152px"></asp:TextBox>
                         </td>
 
                     </tr>

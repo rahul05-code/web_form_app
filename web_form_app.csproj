@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adexample.aspx" />
+    <Content Include="App_Data\login.mdf" />
+    <Content Include="App_Data\login_log.ldf">
+      <DependentUpon>login.mdf</DependentUpon>
+    </Content>
     <Content Include="calander.aspx" />
     <Content Include="clientside.aspx" />
     <Content Include="hdfcloan.aspx" />

@@ -24,22 +24,22 @@ namespace web_form_app
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblemail control.
+        /// lbluser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblemail;
+        protected global::System.Web.UI.WebControls.Label lbluser;
 
         /// <summary>
-        /// emailtxt control.
+        /// usertxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailtxt;
+        protected global::System.Web.UI.WebControls.TextBox usertxt;
 
         /// <summary>
         /// lblpass control.
